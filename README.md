@@ -1,2 +1,2 @@
 # assignment5
-Assignment of Java script by **Zubair & imran**.
+Assignment of Java script by **Zubair & Imran**.
