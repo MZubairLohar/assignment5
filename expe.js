@@ -9,6 +9,10 @@ if( guess1 == number ){
 }else {
         alert("sorry, Incorrect Please try again , You have 2 more chances");
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 
 
 
@@ -32,6 +36,11 @@ var chance = prompt("wanna Try again, then type 'yes' if dont please type 'No'")
 if( Chance === "yes"){
         return number()
 }
+<<<<<<< HEAD
+=======
+console.log(num);
+*/      
+>>>>>>> origin/master
 
 
 */
