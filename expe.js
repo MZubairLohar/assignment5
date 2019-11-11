@@ -8,7 +8,7 @@ else {
         alert("no it's not one of cleanest cities");
 }
 }
-*/
+
 
 var num = 5;
 
@@ -18,7 +18,7 @@ for (i = num ; i >= 1 ; i--){
        num = i-1;
 }
 console.log(num);
-      
+*/      
 
 
 
