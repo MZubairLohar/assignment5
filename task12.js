@@ -1,39 +1,28 @@
 var b =(Math.floor(Math.random)*100+1);
+//var b = 2;
 var a = ("Ready go")
+var i = 0;
 alert ("Game Starts now ")
 
-function gusNum() {
-var gusNu = prompt("type your number");}
-gusNum();
-function gameWon(){
-    if ( gusNum == b){
-        alert("You Won");
-        return gusNum;}
-    }
+    var gusNu = prompt("type your number");
 
-function gameLost1(){
-    if(gusNum != b){
-        alert( "You Lost");
-        
-        
-
-        alert("Try Again" + document.querySelector("p").innerHTML)
+   
+    function gameWon(){
+        if ( gusNu == b){
+            alert("You Won");
+            }
+        }
+    
+    function gameLost1(){
+        if(gusNu != b){
+            alert( "You Lost");
+          
+        }
     }
-}
-function looping(){
-    if(gameLost1()){
-        for(i=3;i<0 ;i--){
-        return gusNum();}
-        
-    }
-}
-
-    gameWon();
-        
+      gameWon();
         gameLost1();
-        looping();
-  
-
-
+        alert("Try Again" + document.querySelector("p1").innerHTML)
+        alert("Try Again" + document.querySelector("p").innerHTML)
+          
 
 
