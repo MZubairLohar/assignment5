@@ -14,7 +14,7 @@ function gameWon(){
 function gameLost1(){
     if(gusNum != b){
         alert( "You Lost");
-        alert( "two more chances");
+        
         
 
         alert("Try Again" + document.querySelector("p").innerHTML)
@@ -22,7 +22,7 @@ function gameLost1(){
 }
 function looping(){
     if(gameLost1()){
-        for(i=0;i<3;i++){
+        for(i=3;i<0 ;i--){
         return gusNum();}
         
     }
