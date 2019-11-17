@@ -1,27 +1,27 @@
-//var b =(Math.floor(Math.random)*100+1);
-var b = 2;
-var a = ("Ready go")
-var i = 2;
-alert ("Game Starts now ")
-
-
-//function gusNum() {
-    var gusNu = prompt("type your number");
-
-    //gusNum();
-    function gameWon(){
-        if ( gusNu == b){
-            alert("You Won");
-            }
-        }
-    
-    function gameLost1(){
-        if(gusNu != b){
-            alert( "You Lost");
-            
-         //   alert("Try Again" + document.querySelector("p").innerHTML)
-        }
+function guessGame()
+{
+    var a=0;
+    var n = Math.floor(Math.random()*100+1);
+    console.log(n);
+while(a<=2)
+{
+    var guess = parseInt(prompt("Guess the number:"));
+    if( guess == n)
+    {
+        console.log("Your guess is correct");
+        break;
+        
     }
-      gameWon();
-        gameLost1();
-          
+    else
+    {
+    console.log("try again");
+    }
+    a++;
+}
+var answer = prompt("Do you want to play again??");
+if(answer == "yes")
+{
+    guessGame();
+}
+}
+guessGame();
